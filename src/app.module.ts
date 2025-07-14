@@ -12,6 +12,15 @@ import { TicketStatusModule } from './ticket_status/ticket_status.module';
 import { PaymentMethodModule } from './payment_method/payment_method.module';
 import { DeliveryMethodModule } from './delivery_method/delivery_method.module';
 import { HumanCategoryModule } from './human_category/human_category.module';
+import { DistrictModule } from './district/district.module';
+import { VenueModule } from './venue/venue.module';
+import { VenueTypesModule } from './venue_types/venue_types.module';
+import { VenuePhotoModule } from './venue_photo/venue_photo.module';
+import { SeatModule } from './seat/seat.module';
+import { CustomerAddressModule } from './customer_address/customer_address.module';
+import { CustomerModule } from './customer/customer.module';
+import { CustomerCardModule } from './customer-card/customer-card.module';
+import { CustomerAuthModule } from './customer-auth/customer-auth.module';
 
 
 @Module({
@@ -26,7 +35,16 @@ import { HumanCategoryModule } from './human_category/human_category.module';
   TicketStatusModule,
   PaymentMethodModule,
   DeliveryMethodModule,
-  HumanCategoryModule
+  HumanCategoryModule,
+  DistrictModule,
+  VenueModule,
+  VenueTypesModule,
+  VenuePhotoModule,
+  SeatModule,
+  CustomerAddressModule,
+  CustomerModule,
+  CustomerCardModule,
+  CustomerAuthModule
 ],
   controllers: [],
   providers: [],
