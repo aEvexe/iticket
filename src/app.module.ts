@@ -24,6 +24,9 @@ import { CustomerAuthModule } from './customer-auth/customer-auth.module';
 import { EventTypeModule } from './event_type/event_type.module';
 import { EventModule } from './event/event.module';
 import { TicketModule } from './ticket/ticket.module';
+import { CartModule } from './cart/cart.module';
+import { CartItemModule } from './cart_item/cart_item.module';
+import { BookingModule } from './booking/booking.module';
 
 
 @Module({
@@ -50,7 +53,10 @@ import { TicketModule } from './ticket/ticket.module';
   CustomerAuthModule,
   EventTypeModule,
   EventModule,
-  TicketModule
+  TicketModule,
+  CartModule,
+  CartItemModule,
+  BookingModule
 ],
   controllers: [],
   providers: [],
